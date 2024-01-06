@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "name": "Труба нержавеющая",
+    "brand": "SuperPipe",
+    "partnumber": "1123SP",
+    "image": "pipe.jpg",
+    "specifications": [
+      { "material": "Сталь нержавеющая" },
+      { "diameter": "3/4" }
+    ],
+    "pricelog": [
+      { "date": "12.12.2023", "priceRUB": 550 },
+      { "date": "13.12.2023", "priceRUB": 550 },
+      { "date": "14.12.2023", "priceRUB": 565 },
+      { "date": "17.12.2023", "priceRUB": 590 }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Труба нержавеющая",
+    "brand": "SuperPipe",
+    "partnumber": "1124SP",
+    "image": "pipe.jpg",
+    "specifications": [
+      { "material": "Сталь нержавеющая" },
+      { "diameter": "1/2" }
+    ],
+    "pricelog": [
+      { "date": "12.12.2023", "priceRUB": 340 },
+      { "date": "13.12.2023", "priceRUB": 380 },
+      { "date": "14.12.2023", "priceRUB": 388 },
+      { "date": "17.12.2023", "priceRUB": 412 }
+    ]
+  }
+]
