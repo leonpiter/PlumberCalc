@@ -1,0 +1,25 @@
+.sidebar {
+    height: 100vh;
+    padding: 30px 22px;
+    .logo {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+    .menu {
+        &__list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        &__item {
+            display: flex;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        a {
+            padding-left: 15px;
+        }
+    }
+}
