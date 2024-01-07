@@ -1,25 +1,65 @@
 .sidebar {
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     padding: 30px 22px;
+    border-right: 2px solid #dee2e7 ;
     .logo {
         display: flex;
         gap: 15px;
-        margin-bottom: 30px;
+        margin-bottom: 45px;
     }
-    .menu {
-        &__list {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            margin-bottom: 20px;
-        }
-        &__item {
-            display: flex;
-            font-size: 16px;
-            font-weight: 500;
-        }
-        a {
-            padding-left: 15px;
-        }
-    }
+}
+
+.sidebar-line {
+    height: 15px;
+    border-bottom: 1px solid #dae0e6;
+    margin-bottom: 15px;
+}
+.menu-list {
+    display: flex;
+    flex-direction: column;
+}
+.menu-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 0px 6px 0px;
+}
+
+.menu-link {
+    padding-left: 15px;
+    color: var(--Text-Body-Light, #425466);
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.menu-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.menu-link:hover {
+    color: var(--Theme-Primary-Default, #4c6fff);
+    font-weight: 600;
+}
+
+.catalog__title {
+    padding-left: 15px;
+    color: var(--Text-Body-Light, #425466);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.catalog__titile-box {
+    margin-bottom: 5px;
+}
+
+.catalog__item {
+    padding-left: 35px;
+}
+
+.account-menu {
+    margin-top: auto;
 }
