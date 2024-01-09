@@ -59,25 +59,25 @@
         </ul>
     </nav>
     <span class="sidebar-line"></span>
-    <div class="catalog">
-        <div class="catalog__titile-box menu-list">
+    <div class="sidebar-catalog">
+        <div class="sidebar-catalog__titile-box menu-list">
             <a href=""
                 ><img src="../../img/icons/catalog.svg" alt="" />
-                <span class="catalog__title">Справочники&blacktriangledown;</span></a
+                <span class="sidebar-catalog__title">Справочники&blacktriangledown;</span></a
             >
         </div>
-        <ul class="catalog__list menu-list">
-            <li class="catalog__item menu-item">
-                <a class="catalog__link menu-link" href="#">Оборудование</a>
+        <ul class="sidebar-catalog__list menu-list">
+            <li class="sidebar-catalog__item menu-item">
+                <a class="sidebar-catalog__link menu-link" href="#">Оборудование</a>
             </li>
-            <li class="catalog__item menu-item">
-                <a class="catalog__link menu-link" href="">Материалы</a>
+            <li class="sidebar-catalog__item menu-item">
+                <a class="sidebar-catalog__link menu-link" href="">Материалы</a>
             </li>
-            <li class="catalog__item menu-item">
-                <a class="catalog__link menu-link" href="">Услуги</a>
+            <li class="sidebar-catalog__item menu-item">
+                <a class="sidebar-catalog__link menu-link" href="">Услуги</a>
             </li>
-            <li class="catalog__item menu-item">
-                <a class="catalog__link menu-link" href="">Работы</a>
+            <li class="sidebar-catalog__item menu-item">
+                <a class="sidebar-catalog__link menu-link" href="">Работы</a>
             </li>
         </ul>
     </div>
@@ -108,7 +108,8 @@
     <div class="header__left search-box">
         <h1>Главная</h1>
         <form class="search-box" action="" method="get">
-            <input name="search" placeholder="Искать здесь..." type="search" />
+            <img class="search-box__img" src="../../img/icons/searchlens.svg" alt="">
+            <input name="search" placeholder="Поиск по названию или артикулу" type="search" />
             <button class="search-btn" type="submit">Поиск</button>
         </form>
     </div>
@@ -118,10 +119,116 @@
 </header>
 
 
+    <main class="main-catalog">
+        <div class="catalog-table">
+    <table class="catalog-table__table">
+        <thead>
+            <tr>
+                <th>Код товара</th>
+                <th>Фотография</th>
+                <th>Наименование</th>
+                <th>Артикул</th>
+                <th>Производитель</th>
+                <th>Остаток</th>
+                <th>Корзина</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>12345</td>
+                <td>
+                    <img
+                        src="../../img/catalogue/i_small_nshvi_10-12.jpg"
+                        alt="Фото товара"
+                    />
+                </td>
+                <td>Насос циркуляционный</td>
+                <td>art12345</td>
+                <td>STOUT</td>
+                <td>
+                    <span>0</span>
+                    <span>шт.</span>
+                </td>
+                <td>
+                    <input type="text" />
+                    <img src="../../img/icons/cart-plus.svg" alt="" />
+                </td>
+            </tr>
+            <tr>
+                <td>12345</td>
+                <td>
+                    <img
+                        src="../../img/catalogue/i_small_nshvi_10-12.jpg"
+                        alt="Фото товара"
+                    />
+                </td>
+                <td>Насос циркуляционный</td>
+                <td>art12345</td>
+                <td>STOUT</td>
+                <td>
+                    <span>0</span>
+                    <span>шт.</span>
+                </td>
+                <td>
+                    <input type="text" />
+                    <img src="../../img/icons/cart-plus.svg" alt="" />
+                </td>
+            </tr>
+            <tr>
+                <td>12345</td>
+                <td>
+                    <img
+                        src="../../img/catalogue/i_small_nshvi_10-12.jpg"
+                        alt="Фото товара"
+                    />
+                </td>
+                <td>Насос циркуляционный</td>
+                <td>art12345</td>
+                <td>STOUT</td>
+                <td>
+                    <span>0</span>
+                    <span>шт.</span>
+                </td>
+                <td>
+                    <input type="text" />
+                    <img src="../../img/icons/cart-plus.svg" alt="" />
+                </td>
+            </tr>
+            <tr>
+                <td>12345</td>
+                <td>
+                    <img
+                        src="../../img/catalogue/i_small_nshvi_10-12.jpg"
+                        alt="Фото товара"
+                    />
+                </td>
+                <td>Насос циркуляционный</td>
+                <td>art12345</td>
+                <td>STOUT</td>
+                <td>
+                    <span>0</span>
+                    <span>шт.</span>
+                </td>
+                <td>
+                    <input type="text" />
+                    <img src="../../img/icons/cart-plus.svg" alt="" />
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 
+        <aside class="aside-catalog-box">
+            <span>
+                <h2>Страница товара</h2>
+            </span>
+            <div class="aside-catalof-box__item-info">
 
-
+            </div>
+        </aside>
+    </main>
+</div>
 
         <script src="./js/index.bundle.js"></script>
     </body>
