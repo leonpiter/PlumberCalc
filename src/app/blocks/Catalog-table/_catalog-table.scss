@@ -1,0 +1,71 @@
+.catalog-table {
+    &__table {
+        padding: 10px;
+        background: var(--Theme-White-Default, #fff);
+        width: 100%;
+        box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        font-size: 12px;
+        border-collapse: collapse;
+        overflow: hidden;
+        th {
+            text-align: center;
+            background: var(--Table-Head-Background, #f2f2f8);
+            color: var(--Table-Head-Text, #758396);
+            padding: 8px;
+            font-weight: normal;
+            /* Table/Border */
+            //box-shadow: 0px -1px 0px 0px #edf2f7 inset;
+        }
+        // tr:nth-child(odd) {
+        //     background-color: #b4b7bb;
+        // }
+
+        td {
+            text-align: center;
+            padding: 5px;
+            img {
+                width: 28px;
+                height: 28px;
+            }
+            input {
+                height: 28px;
+                width: 40px;
+            }
+        }
+    }
+}
+.table-list {
+    &__head {
+        border-radius: 10px;
+    }
+    &__list-item {
+        border-top: 2px solid rgb(209, 209, 209);
+        transition: all 0.2s;
+        cursor: pointer;
+    }
+    &__list-item:hover {
+        background-color: #e9eff8;
+    }
+    &__list-name {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: start;
+        flex-wrap: nowrap;
+        min-width: 300px;
+    }
+}
+
+.cart-box {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.list-code {
+    width: 70px;
+}
+
+.list-img-title {
+    width: 30px;
+}

@@ -105,114 +105,76 @@
  
         <div class="content">
     <header class="header">
-    <div class="header__left search-box">
-        <h1>Главная</h1>
+    <div class="header__left">
+        <h1 class="header__title">Главная</h1>
         <form class="search-box" action="" method="get">
-            <img class="search-box__img" src="../../img/icons/searchlens.svg" alt="">
-            <input name="search" placeholder="Поиск по названию или артикулу" type="search" />
-            <button class="search-btn" type="submit">Поиск</button>
+            <img
+                class="search-box__img"
+                src="../../img/icons/searchlens.svg"
+                alt=""
+            />
+            <input
+                class="search-box__input"
+                name="text"
+                placeholder="Поиск по названию или артикулу"
+                type="search"
+            />
+            <button class="search-box__btn" type="submit">Поиск</button>
         </form>
     </div>
     <div class="header__right">
-
+        <div class="header__add-btn btn-std">
+            <img src="../../../img/icons/plus.svg" alt="">
+            <button>Добавить</button>
+        </div>
+        <div class="header__del-btn btn-std">
+            <img src="../../../img/icons/plus.svg" alt="">
+            <button>Удалить</button>
+        </div>
     </div>
 </header>
 
 
     <main class="main-catalog">
-        <div class="catalog-table">
-    <table class="catalog-table__table">
-        <thead>
-            <tr>
-                <th>Код товара</th>
-                <th>Фотография</th>
-                <th>Наименование</th>
-                <th>Артикул</th>
-                <th>Производитель</th>
-                <th>Остаток</th>
-                <th>Корзина</th>
-                <th></th>
+        <div class="catalog-table-wrapper">
+    <table class="catalog-table__table table-list">
+        <thead class="table-list__head">
+            <tr class="table-list__head-title-box">
+                <th class="table-lis__head-title list-code">КОД</th>
+                <th class="table-lis__head-title list-img-title">ФОТО</th>
+                <th class="table-lis__head-title list-name">НАИМЕНОВАНИЕ</th>
+                <th class="table-lis__head-title list-partnum">АРТИКУЛ</th>
+                <th class="table-lis__head-title list-brand">ПРОИЗВОДИТЕЛЬ</th>
+                <th class="table-lis__head-title list-balance">ОСТАТОК</th>
+                <th class="table-lis__head-title list-balance">Р. ЦЕНА</th>
+                <th class="table-lis__head-title list-cart">КОРЗИНА</th>
             </tr>
         </thead>
-        <tbody>
-            <tr>
+        <tbody class="table-list__body">
+            <tr class="table-list__list-item">
                 <td>12345</td>
                 <td>
                     <img
+                        class="table-list__list-img"
                         src="../../img/catalogue/i_small_nshvi_10-12.jpg"
                         alt="Фото товара"
                     />
                 </td>
-                <td>Насос циркуляционный</td>
+                <td class="table-list__list-name">Насос циркуляционнsdfsdf sdsdfsdfsdfsdfsdffsdfsdsdfsdfыs</td>
                 <td>art12345</td>
                 <td>STOUT</td>
                 <td>
                     <span>0</span>
                     <span>шт.</span>
                 </td>
-                <td>
+                <td>1500<span>р.</span></td>
+                <td class="cart-box">
                     <input type="text" />
-                    <img src="../../img/icons/cart-plus.svg" alt="" />
-                </td>
-            </tr>
-            <tr>
-                <td>12345</td>
-                <td>
                     <img
-                        src="../../img/catalogue/i_small_nshvi_10-12.jpg"
-                        alt="Фото товара"
+                        class="add-cart"
+                        src="../../img/icons/cart-plus.svg"
+                        alt=""
                     />
-                </td>
-                <td>Насос циркуляционный</td>
-                <td>art12345</td>
-                <td>STOUT</td>
-                <td>
-                    <span>0</span>
-                    <span>шт.</span>
-                </td>
-                <td>
-                    <input type="text" />
-                    <img src="../../img/icons/cart-plus.svg" alt="" />
-                </td>
-            </tr>
-            <tr>
-                <td>12345</td>
-                <td>
-                    <img
-                        src="../../img/catalogue/i_small_nshvi_10-12.jpg"
-                        alt="Фото товара"
-                    />
-                </td>
-                <td>Насос циркуляционный</td>
-                <td>art12345</td>
-                <td>STOUT</td>
-                <td>
-                    <span>0</span>
-                    <span>шт.</span>
-                </td>
-                <td>
-                    <input type="text" />
-                    <img src="../../img/icons/cart-plus.svg" alt="" />
-                </td>
-            </tr>
-            <tr>
-                <td>12345</td>
-                <td>
-                    <img
-                        src="../../img/catalogue/i_small_nshvi_10-12.jpg"
-                        alt="Фото товара"
-                    />
-                </td>
-                <td>Насос циркуляционный</td>
-                <td>art12345</td>
-                <td>STOUT</td>
-                <td>
-                    <span>0</span>
-                    <span>шт.</span>
-                </td>
-                <td>
-                    <input type="text" />
-                    <img src="../../img/icons/cart-plus.svg" alt="" />
                 </td>
             </tr>
         </tbody>

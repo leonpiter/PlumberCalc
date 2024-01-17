@@ -2,12 +2,13 @@
     background-color: #edf2f7;
 }
 .main-catalog {
-    padding: 5px;
+    padding: 10px;
     display: grid;
-    grid-template-columns: 1fr 350px;
+    grid-template-columns: 1fr;
 }
 
 .aside-catalog-box {
+    display: none;
     background-color: #fff;
     padding: 5px;
     border-radius: 10px;

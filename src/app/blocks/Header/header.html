@@ -1,14 +1,30 @@
 <header class="header">
-    <div class="header__left search-box">
-        <h1>Главная</h1>
+    <div class="header__left">
+        <h1 class="header__title">Главная</h1>
         <form class="search-box" action="" method="get">
-            <img class="search-box__img" src="../../img/icons/searchlens.svg" alt="">
-            <input name="search" placeholder="Поиск по названию или артикулу" type="search" />
-            <button class="search-btn" type="submit">Поиск</button>
+            <img
+                class="search-box__img"
+                src="../../img/icons/searchlens.svg"
+                alt=""
+            />
+            <input
+                class="search-box__input"
+                name="text"
+                placeholder="Поиск по названию или артикулу"
+                type="search"
+            />
+            <button class="search-box__btn" type="submit">Поиск</button>
         </form>
     </div>
     <div class="header__right">
-
+        <div class="header__add-btn btn-std">
+            <img src="../../../img/icons/plus.svg" alt="">
+            <button>Добавить</button>
+        </div>
+        <div class="header__del-btn btn-std">
+            <img src="../../../img/icons/plus.svg" alt="">
+            <button>Удалить</button>
+        </div>
     </div>
 </header>
 <!-- @@include('mobile-nav.html') -->
