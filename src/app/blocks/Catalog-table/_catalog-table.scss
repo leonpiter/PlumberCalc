@@ -36,6 +36,9 @@
     }
 }
 .table-list {
+    font-size: 13px;
+    color: #383838;
+    font-weight: 500;
     &__head {
         border-radius: 10px;
     }
@@ -47,6 +50,11 @@
     &__list-item:hover {
         background-color: #e9eff8;
     }
+
+    &__list-item_active {
+        background-color: rgb(241, 233, 223);
+    }
+
     &__list-name {
         display: grid;
         grid-template-columns: 1fr;
@@ -60,6 +68,14 @@
     display: flex;
     gap: 15px;
     justify-content: center;
+    &__input {
+        text-align: center;
+    }
+    &__add-remove {
+        height: 80%;
+        scale: 0.5;
+
+    }
 }
 
 .list-code {
