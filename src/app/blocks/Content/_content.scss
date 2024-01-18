@@ -1,0 +1,18 @@
+.content {
+    background-color: #edf2f7;
+}
+.main-catalog {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.aside-catalog-box {
+    display: none;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    min-height: 87vh;
+    filter: drop-shadow(0px 3px 8px rgba(50, 50, 71, 0.05))
+        drop-shadow(0px 0px 1px rgba(12, 26, 75, 0.24));
+}
